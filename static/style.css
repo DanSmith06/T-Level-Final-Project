@@ -1,659 +1,764 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;
-}
-body {
-    /* margin-left: 1em;
-    margin-right: 1em; */
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    overflow-x: hidden;
-    width:100%;
-    position:relative;
-}
-h1{
-    font-family: "Darumadrop One", sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  /* margin-left: 1em;
+  margin-right: 1em; */
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  overflow-x: hidden;
+  width: 100%;
+  position: relative;
+}
+
+h1 {
+  font-family: "Darumadrop One", sans-serif;
+}
 
 nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
 }
 
 nav ul li {
-    display: inline;
+  display: inline;
 }
 
 nav ul li a {
-    display: inline-block;
-    padding: 20px;
-    color: black;
-    text-decoration: none;
-    transition: all 0.4s;
+  display: inline-block;
+  padding: 20px;
+  color: black;
+  text-decoration: none;
+  transition: all 0.4s;
 }
 
 nav ul li a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
-#nav-left{
-    float: left;
-    font-size: 2em;
-    font-family: "Darumadrop One", sans-serif;
-}
-#nav-right{
-    float: right;
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.hero{
-    width:100%;
-    height: 20%;
-}
-.hero img{
-    height: 100%;
-    width:100%;
-}
-#cta{
-    display:inline-block;
-    position:relative;
-    width: 100%;
-}
-#cta a{
-    position: absolute;
-    bottom:3em;
-    text-align: center; 
-    left: 45%;
-    background-color:rgb(27, 116, 11);
-    border-radius:1.5em;
-    transition: all 0.4s;
-    width: 15em;
-    color:white;
-    text-transform:uppercase;
-    padding:1em 1.5em;
-    }
-#cta a:hover{
-    text-decoration: underline;
-    background-color: rgb(27, 116, 11);
-}
-    @media only screen and (max-width:600px) {
-        #cta{
-        display:inline-block;
-        margin-bottom:2em;
-        }
-        #cta a {
-        position:absolute;
-        bottom:0em;
-        left:5em;
-        background-color:rgb(27,142,8);
-        font-weight: bold;
-        text-decoration: none;
-        color:white;
-        font-size:1em;
-        padding:2em 3em;
-        text-transform:uppercase;
-        border-color:white;
-        border-radius:1.5em;
-        width: 100%;
-        }
-        }
-#cta input:hover{
-    cursor: pointer;
-    background-color: rgb(27, 116, 11);
-}
-#title{
-    color:rgb(27,142,8);
-    font-family: "Darumadrop One", sans-serif;
-    font-size: 3em;
-    text-align: center;
-}
-#title span{
-    color:rgb(236,103,6);
+#nav-left {
+  float: left;
+  font-size: 2em;
+  font-family: "Darumadrop One", sans-serif;
 }
 
-footer {          
-border: black 1px solid;
-padding: 20px;
-margin-top: 5%;
-margin-bottom: 0;
-width: 100%;
-position: absolute;
-display: block;
-}
-footer a{
-    color:black;
-    text-decoration: none;
-}
-footer a:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-#backToTop{
-    background-color:rgb(27,142,8);
-    padding: 5px 6px;
-    width: 30px;
-    float:right;    
-}
-.socials{
-    width: 500px;
-    height: auto;
-    margin: 0 auto;
-    padding: 10px;
-    position: absolute; 
-    top:15%;
-    left: 45%;
-}
-.socials a{
-    margin: 15px;
+#nav-right {
+  float: right;
 }
 
-.socials a:hover{
-    text-decoration: none;
+.hero {
+  width: 100%;
+  height: 20%;
 }
-.links{
-    left: 42.5%;
-    position: absolute;
+
+.hero img {
+  height: 100%;
+  width: 100%;
 }
-a+a {
-    margin-left: 25px;
+
+#cta {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+#cta a {
+  position: absolute;
+  bottom: 3em;
+  text-align: center;
+  left: 45%;
+  background-color: rgb(27, 116, 11);
+  border-radius: 1.5em;
+  transition: all 0.4s;
+  width: 15em;
+  color: white;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+}
+
+#cta a:hover {
+  text-decoration: underline;
+  background-color: rgb(27, 116, 11);
+}
+
+@media only screen and (max-width: 600px) {
+  #cta {
+    display: inline-block;
+    margin-bottom: 2em;
   }
+  #cta a {
+    position: absolute;
+    bottom: 0em;
+    left: 5em;
+    background-color: rgb(27, 142, 8);
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    font-size: 1em;
+    padding: 2em 3em;
+    text-transform: uppercase;
+    border-color: white;
+    border-radius: 1.5em;
+    width: 100%;
+  }
+}
+#cta input:hover {
+  cursor: pointer;
+  background-color: rgb(27, 116, 11);
+}
+
+#title {
+  color: rgb(27, 142, 8);
+  font-family: "Darumadrop One", sans-serif;
+  font-size: 3em;
+  text-align: center;
+}
+
+#title span {
+  color: rgb(236, 103, 6);
+}
+
+footer {
+  border: black 1px solid;
+  padding: 20px;
+  margin-top: 5%;
+  margin-bottom: 0;
+  width: 100%;
+  position: absolute;
+  display: block;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+#backToTop {
+  background-color: rgb(27, 142, 8);
+  padding: 5px 6px;
+  width: 30px;
+  float: right;
+}
+
+.socials {
+  width: 500px;
+  height: auto;
+  margin: 0 auto;
+  padding: 10px;
+  position: absolute;
+  top: 15%;
+  left: 45%;
+}
+
+.socials a {
+  margin: 15px;
+}
+
+.socials a:hover {
+  text-decoration: none;
+}
+
+.links {
+  left: 42.5%;
+  position: absolute;
+}
+
+a + a {
+  margin-left: 25px;
+}
+
 .tiles-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-margin: 0 30px;
-width: 100%;
+  display: flex;
+  flex-direction: row; /* Explicitly enforce horizontal layout */
+  flex-wrap: nowrap; /* Prevent wrapping to new lines */
+  justify-content: space-between; /* Evenly distribute space */
+  width: 100%; /* Full width of parent */
+  padding: 0 15px; /* Padding instead of margin for cleaner boundaries */
+  box-sizing: border-box; /* Include padding in width calculation */
 }
 
 .tile {
-max-width: calc(33.33% - 20px);
-height: 700px;
-margin: 40px 50px;
-position: relative;
-overflow: hidden;
-border-radius: 10px;
-box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-transition: box-shadow 0.3s ease;
-flex-wrap: wrap;
+  flex: 1; /* Each tile takes equal space */
+  min-width: 0; /* Allow shrinking below content size */
+  max-width: 33.33%; /* Cap at 1/3 of container, but allow shrinking */
+  height: 700px; /* Default height */
+  margin: 40px 5px; /* Reduced horizontal margin */
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
 }
 
 .tile:hover {
-box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .tile img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-transition: transform 0.3s ease;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure images scale properly */
+  transition: transform 0.3s ease;
 }
 
 .tile:hover img {
-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .tile .content {
-position: absolute;
-bottom: 0;
-left: 0;
-right: 0;
-padding: 10px;
-background-color: rgba(0, 0, 0, 0.5);
-color: #fff;
-text-align: center;
-transition: background-color 0.1s ease;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  transition: background-color 0.1s ease;
 }
 
-/* @media(max-width: 900px){
-
-    .tiles-container{ 
-        width: calc(100% - 20px);
-    }
-
-    .tile{
-        flex-direction: column;
-        flex-grow: 1;
-        flex-wrap:wrap;
-    }
-
-
-} */
-
 .button {
-    display: inline-block;
-    padding: 32px 64px;
-    background-color: rgb(27,142,8);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-    font-size: 35px;
-    transition: all 0.4s;
+  display: inline-block;
+  padding: 32px 64px; /* Original large padding */
+  background-color: rgb(27, 142, 8);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 35px; /* Original large font size */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Improved transition */
 }
 
 .button:hover {
-background-color: rgb(27, 116, 11);
+  background-color: rgb(27, 116, 11); /* Original hover color */
+  transform: scale(1.05); /* Slight scaling on hover for better effect */
 }
-#registerForm{
-    position: relative;
-    display: block;
-    margin-left:5% ;
-    width: 60%;
-    float:left;
-    left: 15%;
+
+/* Media query for medium screens */
+@media (max-width: 900px) {
+  .tiles-container {
+    padding: 0 10px; /* Reduce padding */
+  }
+
+  .tile {
+    margin: 20px 3px; /* Tighter margins */
+    height: 400px; /* Scale down height */
+  }
+
+  .button {
+    padding: 16px 32px; /* Scale down padding */
+    font-size: 20px; /* Scale down font */
+  }
 }
-#registerForm a{
-    position: absolute;
-    font-size: 25px;
-    margin-top: 1%;
-    left: 3%;
+
+/* Media query for small screens */
+@media (max-width: 600px) {
+  .tiles-container {
+    padding: 0 5px; /* Minimal padding */
+  }
+
+  .tile {
+    margin: 10px 2px; /* Even tighter margins */
+    height: 250px; /* Further scale down */
+  }
+
+  .button {
+    padding: 8px 16px; /* Further scale down padding */
+    font-size: 16px; /* Further scale down font */
+  }
 }
-.login-container{
-    width: 100%;
-    position: relative;
-    overflow: hidden;
+
+.button:hover {
+  background-color: rgb(27, 116, 11);
 }
-#backButton{
-    float:left;
-    margin-left: 3%;
-    margin-top: 1%;
+
+#registerForm {
+  position: relative;
+  display: block;
+  margin-left: 5%;
+  width: 60%;
+  float: left;
+  left: 15%;
 }
-.form-container{
-    left:50%;
-    top:5%;
-    position: absolute;
+
+#registerForm a {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 1%;
+  left: 3%;
 }
-.form-container h1{
-    font-size: 42px;
-    top: 25%;
+
+.login-container {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
 }
-.form-container input{
-    padding:15px 60px;
-    font-size: 20px;
+
+#backButton {
+  float: left;
+  margin-left: 3%;
+  margin-top: 1%;
 }
-.form-container label{
-    font-size: 20px;
+
+.form-container {
+  left: 50%;
+  top: 5%;
+  position: absolute;
 }
-.form-container [type=submit]{
-    color: white;
-    font-weight: bold;
-    background-color:rgb(236,103,6) ;
-    border: 0;
-    padding:15px 120px;
-    margin-left: 8%;
-    transition: all 0.4s;
+
+.form-container h1 {
+  font-size: 42px;
+  top: 25%;
 }
-.form-container [type=submit]:hover{
-    cursor: pointer;
-    background-color: rgb(216, 100, 17);
+
+.form-container input {
+  padding: 15px 60px;
+  font-size: 20px;
 }
-.form-container a{
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
+
+.form-container label {
+  font-size: 20px;
 }
-.form-container a:hover{
-    text-decoration: underline;
-    cursor: pointer;
+
+.form-container [type=submit] {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(236, 103, 6);
+  border: 0;
+  padding: 15px 120px;
+  margin-left: 8%;
+  transition: all 0.4s;
+}
+
+.form-container [type=submit]:hover {
+  cursor: pointer;
+  background-color: rgb(216, 100, 17);
+}
+
+.form-container a {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+}
+
+.form-container a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 /* --------------------------------------------------------------------- */
 .input-container {
-    position: relative;
-    width: 40%;
-    margin-bottom: 30px; 
+  position: relative;
+  width: 40%;
+  margin-bottom: 30px;
 }
-.input-container input:focus + label, 
+
+.input-container input:focus + label,
 .input-container input:valid + label {
-    top: -8px;
+  top: -8px;
 }
+
 .input-container label {
-    position: absolute;
-    top: 40%;
-    left: 10px;
-    transform: translateY(-50%);
-    transition: all 0.3s ease;
-    pointer-events: none;
+  position: absolute;
+  top: 40%;
+  left: 10px;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  pointer-events: none;
 }
+
 /* ------------------------------------------------------------------------- */
-.regform-container{
-    width: 100%;
-}
-.regform-container h1{
-    font-size: 42px;
-    top: 25%;
-}
-.regform-container input{
-    padding:15px 15px;
-    width: 80%;
-    font-size: 20px;
-}
-.regform-container label{
-    font-size: 20px;
-}
-.regform-container [type=submit]{
-    color: white;
-    font-weight: bold;
-    background-color:rgb(236,103,6) ;
-    border: 0;
-    padding:15px 133px;
-    margin-left: 0%;
-    transition: all 0.4s;
-    font-size: 25px;
-}
-.regform-container [type=submit]:hover{
-    cursor: pointer;
-    background-color: rgb(216, 100, 17);
-}
-.regform-container a{
-    text-decoration: none;
-    color: black;
-    font-size: 12px;
-}
-.regform-container a:hover{
-    text-decoration: underline;
-    cursor: pointer;
-}
-#loginForm{
-    position: relative;
-}
-#NoAcc{
-    position: absolute;
-    font-size: 25px;
-    margin-top: 1%;
-    left: 13%;
-}
-.image-container{
-    width: 50%;
-    height:80%;
-    margin:3%;
-    margin-top: 1%;
+.regform-container {
+  width: 100%;
 }
 
-.image-container img{
-    max-width: 63%;
-    height: 50%;
-    float: left;
+.regform-container h1 {
+  font-size: 42px;
+  top: 25%;
 }
 
-.LoginErrorBox{
-    position: relative;
-    margin: 5%  ;
-    font-size: 25px;
-    left: 5%;
-}
-.LoginErrorBox h2{
-    position: relative;
-    display: block;
-    margin-bottom: 5%;
-}
-.LoginErrorBox input{
-    position:relative;
-    margin: 25px;
-    margin-top: 15px;
-    left: 30%;
-    color: white;
-    font-weight: bold;
-    background-color:rgb(236,103,6) ;
-    
-    border: 0;
-    width: 25%;
-    padding:15px 25px;
-    margin-left: 0%;
-    transition: all 0.4s;
-    font-size: 25px;
-}
-.LoginErrorBox input:hover{
-    cursor: pointer;
-    background-color: rgb(216, 100, 17);
-}
-h2{
-    position: absolute;
-    left: 25%;
-    font-size: 28px;
-    text-decoration: underline;
-}
-.ticketForm, .hotelForm{
-    width: 100%;
-    margin: 37%;
-    margin-top: 5%;
-    margin-bottom: 15%;
-    font-size: 1.5em;
-}
-.ticketForm [type=submit], .hotelForm [type=submit]{
-    position: relative;
-    background-color: rgb(236,103,6);
-    width: 20%;
-    left: 5%;
-    padding: 12px 20px;
-    color: white;
-    font-weight: bold;
-    border: none;
-}
-.ticketForm [type=submit]:hover, .hotelForm [type=submit]:hover{
-    cursor: pointer;
-    background-color: rgb(216, 100, 17);
-}
-.increment, .decrement{
-    padding: 1px 25px;
-}
-.increment:hover, .decrement:hover{
-    cursor: pointer;
-}
-#contactUsForm{
-   position: relative;
-   display: block;
-    left: 30%;
-    width: 100%;
-}
-#contactUsForm input[type=text], #contactUsForm input[type=email], textarea {
-    width: 40%;
-    font-family: "Roboto";
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: block;
-    resize: none;
-   }
-#contactUsForm input[type=submit]{
-    background-color: rgb(236,103,6);
-    width: 40%;
-    padding: 12px 20px;
-    color: white;
-    font-weight: bold;
-    border: none;
-}
-#contactUsForm input[type=submit]:hover{
-    cursor: pointer;
-    background-color: rgb(216, 100, 17);
-}
-#roomSelect{
-    position: relative;
-    font-family: "Roboto";
-  }
-.info{
-    
-    margin-right: 5em;
-    font-size:1em ;
-}
-#InfoContent{
-    position: relative;
-    margin: 15%;
-    margin-top: 2%;
-    margin-bottom: 0;
-}
-#infoContent h3{
-    margin-bottom: 2%;
-}
-#regtitle{
-    position: relative;
-    margin-left: 5%;
-    margin-top: 0;
-    width: 18%;
-    left: 15%;
+.regform-container input {
+  padding: 15px 15px;
+  width: 80%;
+  font-size: 20px;
 }
 
-#regImg{
-    position: absolute;
-    width: 35%;
-    float:right;
-    right: 10%;
-    top: 23%;
-}
-#regImg img{
-    position: absolute;
-    max-width: 90%;
-}
-#editDetails{
-    position: relative;
-    margin: 5%;
-}
-#editDetails h2{
-    position: relative;
-    left: 0;
-}
-.subHead{
-    font-size:25px ;
-    text-decoration: underline;
+.regform-container label {
+  font-size: 20px;
 }
 
-.bookingContainer{
-    position: relative;
-    margin: 5%;
-    
-}
-.bookingContainer li{
-    margin-bottom: 2%;
-    font-size: 21px ;
-}
-.bookingContainer h2{
-    margin-left: -2%;
-    position: relative;
-    left: 0;
+.regform-container [type=submit] {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(236, 103, 6);
+  border: 0;
+  padding: 15px 133px;
+  margin-left: 0%;
+  transition: all 0.4s;
+  font-size: 25px;
 }
 
-
-ul{
-    list-style: none;
+.regform-container [type=submit]:hover {
+  cursor: pointer;
+  background-color: rgb(216, 100, 17);
 }
-a{
+
+.regform-container a {
   text-decoration: none;
-  color: inherit;  
+  color: black;
+  font-size: 12px;
 }
-nav{
-    margin-right: 30px;
-    top:0;
+
+.regform-container a:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
-.hamburger{
-    display: none;
-    cursor: pointer;
+
+#loginForm {
+  position: relative;
 }
-.bar{
-    height:2px;
-    width: 27px;
-    background: black;
-    margin: 5px 0;
-    transition: all 0.3s ease-in-out;
+
+#NoAcc {
+  position: absolute;
+  font-size: 25px;
+  margin-top: 1%;
+  left: 13%;
 }
+
+.image-container {
+  width: 50%;
+  height: 80%;
+  margin: 3%;
+  margin-top: 1%;
+}
+
+.image-container img {
+  max-width: 63%;
+  height: 50%;
+  float: left;
+}
+
+.LoginErrorBox {
+  position: relative;
+  margin: 5%;
+  font-size: 25px;
+  left: 5%;
+}
+
+.LoginErrorBox h2 {
+  position: relative;
+  display: block;
+  margin-bottom: 5%;
+}
+
+.LoginErrorBox input {
+  position: relative;
+  margin: 25px;
+  margin-top: 15px;
+  left: 30%;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(236, 103, 6);
+  border: 0;
+  width: 25%;
+  padding: 15px 25px;
+  margin-left: 0%;
+  transition: all 0.4s;
+  font-size: 25px;
+}
+
+.LoginErrorBox input:hover {
+  cursor: pointer;
+  background-color: rgb(216, 100, 17);
+}
+
+h2 {
+  position: absolute;
+  left: 25%;
+  font-size: 28px;
+  text-decoration: underline;
+}
+
+.ticketForm, .hotelForm {
+  width: 100%;
+  margin: 37%;
+  margin-top: 5%;
+  margin-bottom: 15%;
+  font-size: 1.5em;
+}
+
+.ticketForm [type=submit], .hotelForm [type=submit] {
+  position: relative;
+  background-color: rgb(236, 103, 6);
+  width: 20%;
+  left: 5%;
+  padding: 12px 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.ticketForm [type=submit]:hover, .hotelForm [type=submit]:hover {
+  cursor: pointer;
+  background-color: rgb(216, 100, 17);
+}
+
+.increment, .decrement {
+  padding: 1px 25px;
+}
+
+.increment:hover, .decrement:hover {
+  cursor: pointer;
+}
+
+#contactUsForm {
+  position: relative;
+  display: block;
+  left: 30%;
+  width: 100%;
+}
+
+#contactUsForm input[type=text], #contactUsForm input[type=email], textarea {
+  width: 40%;
+  font-family: "Roboto";
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  resize: none;
+}
+
+#contactUsForm input[type=submit] {
+  background-color: rgb(236, 103, 6);
+  width: 40%;
+  padding: 12px 20px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+#contactUsForm input[type=submit]:hover {
+  cursor: pointer;
+  background-color: rgb(216, 100, 17);
+}
+
+#roomSelect {
+  position: relative;
+  font-family: "Roboto";
+}
+
+.info {
+  margin-right: 5em;
+  font-size: 1em;
+}
+
+#InfoContent {
+  position: relative;
+  margin: 15%;
+  margin-top: 2%;
+  margin-bottom: 0;
+}
+
+#infoContent h3 {
+  margin-bottom: 2%;
+}
+
+#regtitle {
+  position: relative;
+  margin-left: 5%;
+  margin-top: 0;
+  width: 18%;
+  left: 15%;
+}
+
+#regImg {
+  position: absolute;
+  width: 35%;
+  float: right;
+  right: 10%;
+  top: 23%;
+}
+
+#regImg img {
+  position: absolute;
+  max-width: 90%;
+}
+
+#editDetails {
+  position: relative;
+  margin: 5%;
+}
+
+#editDetails h2 {
+  position: relative;
+  left: 0;
+}
+
+.subHead {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.bookingContainer {
+  position: relative;
+  margin: 5%;
+}
+
+.bookingContainer li {
+  margin-bottom: 2%;
+  font-size: 21px;
+}
+
+.bookingContainer h2 {
+  margin-left: -2%;
+  position: relative;
+  left: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav {
+  margin-right: 30px;
+  top: 0;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  height: 2px;
+  width: 27px;
+  background: black;
+  margin: 5px 0;
+  transition: all 0.3s ease-in-out;
+}
+
 nav--open {
-    transform: translate(0) !important;
+  transform: translate(0) !important;
 }
-.hamburger--open.bar:mth-child(1){
-transform: translateY(7px) rotate(45deg);
-}
-.hamburger--open.bar:mth-child(2){
-opacity: 0;
-}
-.hamburger--open.bar:mth-child(3){
-    transform: translateY(-7px) rotate(-45deg);
-}
-@media (max-width: 930px){
-    nav{
-        position: absolute;
-        top:0;
-        width: 100%;
-        padding: 10px 0 25px;
-        margin-bottom: 5%;
-        transform: translate(-100%);
-        white-space: normal;
-    }
-    #title{
-        display: none;
-    }
-    nav li{
-        flex-direction: column;
-        align-items: center;
-        row-gap:20px;
 
-    }
-    .hamburger{
-        display: block;
-        margin-left: 2%;
-        margin-top: 5%;
-    }
-    .hero{
-        display: none;
-    }
+.hamburger--open.bar:mth-child(1) {
+  transform: translateY(7px) rotate(45deg);
 }
-#profTitle{
+
+.hamburger--open.bar:mth-child(2) {
+  opacity: 0;
+}
+
+.hamburger--open.bar:mth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+@media (max-width: 930px) {
+  nav {
     position: absolute;
-    left:25%;
-}
-#profilePage{
-    position: relative;
-    left: 25%;
-}
-.profileContainer{
-    position: relative;
-    width: 20%;
-    margin-left: 15%;
-}
-
-#loyalty{
-    position: relative;
-    float:right;
-    border-radius: 1.5em;
-    background-color: rgb(27,142,8);
-    color: white;
-    width: 170px;
-    padding: 5px 15px;
-}
-.pfp{
-    position: relative;
-    float: left;
-    width: 200px;
-    height:200px;
-    border-radius: 100%;
-    border: 2px black solid;
-}
-#detailsForm input[type=text], #detailsForm input[type=email], #detailsForm input[type=password]{
-    width: 40%;
-    font-family: "Roboto";
-    padding: 12px 20px;
-    margin: 8px 0;
+    top: 0;
+    width: 100%;
+    padding: 10px 0 25px;
+    margin-bottom: 5%;
+    transform: translate(-100%);
+    white-space: normal;
+  }
+  #title {
+    display: none;
+  }
+  nav li {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+  }
+  .hamburger {
     display: block;
-    resize: none;
-}
-
-.paragrahContent{
-    position: relative;
-    display: block;
-    margin:25%;
+    margin-left: 2%;
     margin-top: 5%;
-    margin-bottom: 0;
+  }
+  .hero {
+    display: none;
+  }
 }
-.paragrahContent h3{
-    margin:25px;
+#profTitle {
+  position: absolute;
+  left: 25%;
 }
-.paragrahContent p{
-    margin-top: 10px;
+
+#profilePage {
+  position: relative;
+  left: 25%;
 }
-.paragrahContent a{
-    position: relative;
-    left:25%;
+
+.profileContainer {
+  position: relative;
+  width: 20%;
+  margin-left: 15%;
 }
-.paragrahContent a:hover{
-    text-decoration: underline;
+
+#loyalty {
+  position: relative;
+  float: right;
+  border-radius: 1.5em;
+  background-color: rgb(27, 142, 8);
+  color: white;
+  width: 170px;
+  padding: 5px 15px;
 }
+
+.pfp {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  border: 2px black solid;
+}
+
+#detailsForm input[type=text], #detailsForm input[type=email], #detailsForm input[type=password] {
+  width: 40%;
+  font-family: "Roboto";
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  resize: none;
+}
+
+.paragrahContent {
+  position: relative;
+  display: block;
+  margin: 25%;
+  margin-top: 5%;
+  margin-bottom: 0;
+}
+
+.paragrahContent h3 {
+  margin: 25px;
+}
+
+.paragrahContent p {
+  margin-top: 10px;
+}
+
+.paragrahContent a {
+  position: relative;
+  left: 25%;
+}
+
+.paragrahContent a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=style.css.map */
